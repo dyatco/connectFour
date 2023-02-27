@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen{
+	height: 100vh;
+}
+
+.grid{
+	border: 10px solid;
+	height: clamp(50vw, 50vw, 90vw);
+	width: clamp(50vw, 50vw, 90vw);
+	/*height: 70vw;
+	width: 70vw;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	text-align: center;
+}
+.row{
+	width: 100%;
+}
+
+.row div{
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	color: white;
+	padding: 0;
+}
+
+.player-one{
+	background-color: red;
+	border-radius: 100px;
+}
+
+.player-two{
+	background-color: blue;
+	border-radius: 100px;
+}
+.hide{
+	display: none;
+}
